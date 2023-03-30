@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "To Do App",
+    "slug": "to-do-app",
+    "description": "This is a basic To Do Application devloped by React Native and Expo for education purposes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bluetick.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bluetick.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
